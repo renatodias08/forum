@@ -1,0 +1,35 @@
+ docker build -f Dockerfile .
+
+docker run -p 8080:9080 -t renatodias08/teste:0.1  
+
+
+-----------------------------------------------------------------
+http://localhost:8080/auth
+
+    {
+        "email": "aluno@email.com",
+        "senha": "123456"
+    }
+    
+    
+    
+    
+    
+ ---------------------------------------------------------------------
+ 
+ http://localhost:8080/topicos
+    
+    {
+    "id": 4,
+    "titulo": "Duvida Postman",
+    "mensagem": "Texto da Mensagem",
+    "dataCriacao": "2019-06-20T11:52:02.44"
+}
+
+
+
+ ---------------------------------------------------------------------
+http://localhost:8080/topicos/3
+
+
+
